@@ -1,3 +1,7 @@
-$("button").click(function(){
-  $("p").toggle();
+$("#hide").click(function(){
+  $("p").hide();
+});
+
+$("#show").click(function(){
+  $("p").show();
 });
